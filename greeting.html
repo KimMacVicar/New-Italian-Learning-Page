@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container{
+        text-align: center;
+      }
+      header {
+        background-size: cover;
+        background-color: rgb(201, 233, 233);
+        border-radius: 8px;
+        margin:30px 100px 30px 100px;
+        
+      }
+      .presentazioni {
+        background-size: cover;
+        background-color: blanchedalmond;
+        border-radius: 8px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 10px 10px 10px 10px;
+      }
+      .box {
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      .salutare {
+        display: flex;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      .goodbye {
+        display: flex;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      .wish {
+        display: flex;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+        padding-left: 10px;
+       
+      }
+      .boxes-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 10px 10px 10px 10px;
+      }
+      .mi-tu {
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      .meeting {
+        display: flex;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      .return-button {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 20px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .r-button{
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      @media (max-width: 900px) {
+        header{
+          margin:10px auto;
+        }
+        .box {
+          font-size: 20px;
+          font-weight: bold;
+          
+        }
+        .salutare {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+       
+        }
+        .goodbye {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .wish {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .mi-tu {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    </style>
+  </head>
+  <body><div class="container">
+    <header>
+      <h1>Salutare in Italiano</h1>
+      <div class="boxes">
+        <div class="box">Formale</div>
+        <div class="box">In mezzo</div>
+        <div class="box">Informale</div>
+      </div>
+      <div class="boxes">
+        <div class="salutare">Buon giorno! Buona sera!</div>
+        <div class="salutare">Salve!</div>
+        <div class="salutare">Ciao!</div>
+      </div>
+      <div class="boxes">
+        <div class="goodbye">Arrivederci!</div>
+        <div class="goodbye">Salve!</div>
+        <div class="goodbye">Ciao!</div>
+      </div>
+      <div class="boxes">
+        <div class="wish">buona giornata! buona serata! buona notte!</div>
+        <div class="wish">buona giornata! buona serata! buona notte!</div>
+        <div class="wish">buona giornata! buona serata! buona notte!</div>
+      </div>
+    </header>
+    <header class="presentazioni">
+      <h1>Presentazioni</h1>
+      <div class="boxes-2">
+        <div class="mi-tu">Mi</div>
+        <div class="mi-tu">Tu</div>
+      </div>
+      <div class="boxes-2">
+        <div class="meeting">Buon giorno! Sono Kim o Mi chiamo Kim.</div>
+        <div class="meeting">Piacere, Kim. Sono Francesca.</div>
+        <div class="meeting">Piacere, Francesca. Sono canadese, e tu?</div>
+        <div class="meeting">Sono americana, ma vivo a Napoli. E tu?</div>
+        <div class="meeting">Vivo a Saskatoon, in Canada.</div>
+        
+      </div>
+      </div>
+    </header>
+    <div class="return-button">
+      <a href="L'Alfabeto.html">
+        <button class="r-button">L'Alfabeto in Italiano</button>
+      </a></div>
+      <div class="return-button">
+      <a href="famosi-expats.html">
+        <button class="r-button">I Famosi Expats</button>
+      </a></div>
+       <div class="return-button">
+      <a href="essere.html">
+        <button class="r-button">Essere</button>
+      </a></div>
+    <div class="return-button">
+        <a href="index.html"><button class="r-button">Return Home</button></a>
+    </div>
+    </div>
+  </body>
+</html>
