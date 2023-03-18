@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>L'Alfabeto Italiano</title>
+    <style>
+      .background{
+        margin:50px auto;
+      }
+      h1 {
+       
+        text-align: center;
+        font-weight: bolder;
+        font-size: 40px;
+      }
+      .alphabet {
+        width: 900px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 20px 20px 20px 20px;
+      }
+      .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 10px 20px 10px 20px;
+      }
+      .box {
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      li {
+        list-style: none;
+        display: flex;
+        height: 40px;
+        font-size: 16px;
+        line-height: 0.5;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+      }
+      h2 {
+        text-align: center;
+        background-color: azure;
+        border: 1px solid lightgrey;
+        margin: 30px 60px 30px 60px;
+        border-radius: 8px;
+      }
+      p {
+        font-size: 20px;
+      }
+      .first-p {
+        padding-top: 10px;
+      }
+      .return-button {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .r-button {
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      li:hover {
+        background-color: rgb(223, 244, 237);
+        font-size: 24px;
+        transition:400ms ease-in-out;
+      }
+      h2:hover {
+        
+        background-color: rgb(204, 237, 226);
+        transition: 400ms ease-in-out;
+        font-size: 32px;
+      }
+
+      @media (max-width: 900px) {
+      }
+    </style>
+  </head>
+  <body><div class="background">
+    <h1>L'Alfabeto Italiano</h1>
+    <img class="alphabet img-fluid" src="italian-alphabet.jpeg" alt="" />
+
+    <div class="boxes">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>aereo</li>
+        <li>amore</li>
+        <li>acqua</li>
+      </div>
+      <div class="box1">
+        <li>bottiglia</li>
+        <li>bar</li>
+        <li>buona</li>
+      </div>
+      <div class="box1">
+        <li>conversazione</li>
+        <li>cucina</li>
+        <li>cinema</li>
+      </div>
+    </div>
+    <h2>
+      C+e or i sounds like "chess"
+      <p class="first-p">piacere</p>
+      <p>facile</p>
+      <p>cinema</p>
+    </h2>
+    <h2>
+      C+hi sounds like "k" (kee)
+      <p class="first-p">chiuso</p>
+      <p>chiaro</p>
+      <p>chiamare</p>
+    </h2>
+    <div class="boxes">
+      <div class="box">D</div>
+      <div class="box">E</div>
+      <div class="box">F</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>donna</li>
+        <li>dizionario</li>
+        <li>dottore</li>
+      </div>
+      <div class="box1">
+        <li>elegante</li>
+        <li>ecologia</li>
+        <li>essere</li>
+      </div>
+      <div class="box1">
+        <li>famiglia</li>
+        <li>finestra</li>
+        <li>fontana</li>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box">G</div>
+      <div class="box">H</div>
+      <div class="box">I</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>ghiaccio</li>
+        <li>globo</li>
+        <li>gelato</li>
+      </div>
+      <div class="box1">
+        <li>hanno</li>
+        <li>hostess</li>
+        <li>hotel</li>
+      </div>
+      <div class="box1">
+        <li>isola</li>
+        <li>Italia</li>
+        <li>Inghilterra</li>
+      </div>
+    </div>
+    <h2>H by itself is silent</h2>
+    <div class="boxes">
+      <div class="box">L</div>
+      <div class="box">M</div>
+      <div class="box">N</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>libro</li>
+        <li>lettera</li>
+        <li>Londra</li>
+      </div>
+      <div class="box1">
+        <li>macchina</li>
+        <li>musica</li>
+        <li>medicina</li>
+      </div>
+      <div class="box1">
+        <li>notte</li>
+        <li>numero</li>
+        <li>nuovo</li>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box">O</div>
+      <div class="box">P</div>
+      <div class="box">Q</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>ospedale</li>
+        <li>oggi</li>
+        <li>occhio</li>
+      </div>
+      <div class="box1">
+        <li>pane</li>
+        <li>parlare</li>
+        <li>parcheggio</li>
+      </div>
+      <div class="box1">
+        <li>qualita</li>
+        <li>quarentena</li>
+        <li>quando?</li>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box">R</div>
+      <div class="box">S</div>
+      <div class="box">T</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>ristorante</li>
+        <li>romantico</li>
+        <li>rosa</li>
+      </div>
+      <div class="box1">
+        <li>scuola</li>
+        <li>sole</li>
+        <li>studiare</li>
+      </div>
+      <div class="box1">
+        <li>telefono</li>
+        <li>tavolo</li>
+        <li>treno</li>
+      </div>
+    </div>
+    <h2>
+      S+ci or S+ce sounds like "sh" ("shilling")
+      <p class="first-p">scienza</p>
+      <p>scemo</p>
+      <p>sciarpa</p>
+    </h2>
+    <h2>
+      S+che or S+chi sounds like "sk" ("scheme")
+      <p class="first-p">maschio</p>
+      <p>schermo</p>
+      <p>schema</p>
+    </h2>
+    <div class="boxes">
+      <div class="box">U</div>
+      <div class="box">V</div>
+      <div class="box">Z</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>ufficio</li>
+        <li>uomo</li>
+        <li>uscita</li>
+      </div>
+      <div class="box1">
+        <li>vino</li>
+        <li>verdura</li>
+        <li>vecchio</li>
+      </div>
+      <div class="box1">
+        <li>zaino</li>
+        <li>zucchero</li>
+        <li>zebra</li>
+      </div>
+    </div>
+    <h1>Non Italiano Lettere</h1>
+    <div class="boxes">
+      <div class="box">J</div>
+      <div class="box">K</div>
+      <div class="box">W</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>judo</li>
+        <li>jazz</li>
+        <li></li>
+      </div>
+      <div class="box1">
+        <li>kefir</li>
+        <li>kiwi</li>
+        <li></li>
+      </div>
+      <div class="box1">
+        <li>week-end</li>
+        <li></li>
+        <li></li>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box">X</div>
+      <div class="box">Y</div>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <li>xilofono</li>
+        <li></li></li>
+        <li></li>
+      </div>
+      <div class="box1">
+        <li>yogurt</li>
+        <li></li>
+        <li></li>
+      </div>
+    </div>
+    <div class="return-button">
+      <a href="greetings.html">
+        <button class="r-button">Salutare in Italiano</button>
+      </a>
+    </div>
+      <div class="return-button">
+      <a href="famosi-expats.html">
+        <button class="r-button">I Famosi Expats</button>
+      </a></div>
+    <div class="return-button">
+      <a href="index.html"><button class="r-button ">Return Home</button></a>
+    </div>
+    </div>
+  </body>
+</html>
