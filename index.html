@@ -5,8 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      header {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("Italy.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px;
+      }
+      .journey {
+        color: white;
+        font-size: 50px;
+      }
+      p {
+        color: aliceblue;
+        font-size: 24px;
+      }
+      .return-button {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .r-button {
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+      }
+      @media (max-width: 900px) {
+        header {
+          padding: 30px 0;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        .return-button {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 20px;
+          padding-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .r-button {
+          display: flex;
+          height: 40px;
+          font-size: 20px;
+          border-radius: 8px;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid lightgrey;
+        }
+      }
+    </style>
   </head>
   <body>
-    fjskdghhjsgdh!
+    <header>
+      <h1 class="journey">My Italian Learning Journey</h1>
+      <p>
+        Boungiorno e benvenuti! Mi chiamo Kim, E tu? Piacere! Sono Canadese e
+        vivo a Saskatoon, in Canada. Buona giornata!
+      </p>
+    </header>
+    <div class="return-button">
+      <a href="greetings.html">
+        <button class="r-button">Salutare in Italiano</button>
+      </a>
+    </div>
+    <div class="return-button">
+      <a href="L'Alfabeto.html">
+        <button class="r-button">L'Alfabeto in Italiano</button>
+      </a>
+    </div>
+    <div class="return-button">
+      <a href="famosi-expats.html">
+        <button class="r-button">I Famosi Expats</button>
+      </a>
+    </div>
+    <div class="return-button">
+      <a href="essere.html">
+        <button class="r-button">Essere</button>
+      </a>
+    </div>
   </body>
 </html>

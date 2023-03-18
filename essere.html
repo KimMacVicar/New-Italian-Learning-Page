@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essere</title>
+  </head>
+  <style>
+    .container {
+      max-width: 1200px;
+      display: inline;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("Italy.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 60px;
+    }
+    h1 {
+      text-align: center;
+      font-weight: bolder;
+      font-size: 40px;
+      color: white;
+    }
+    h2 {
+      text-align: center;
+      margin-top: -15px;
+      color: white;
+    }
+    .boxes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      padding-top: 30px;
+      padding-right: 100px;
+      padding-left: 100px;
+      padding-bottom: 30px;
+    }
+    .pronomi {
+      display: flex;
+      height: 40px;
+      font-size: 24px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid lightgrey;
+      background-color: antiquewhite;
+    }
+    .box {
+      display: flex;
+      height: 40px;
+      font-size: 24px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid lightgrey;
+    }
+    .box2 {
+      display: flex;
+      height: 100px;
+      font-size: 16px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid lightgrey;
+    }
+    .return-button {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .r-button {
+      display: flex;
+      height: 40px;
+      font-size: 24px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid lightgrey;
+    }
+    @media (max-width: 900px) {
+      .boxes {
+        padding: 10px 10px 10px 10px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Essere</h1>
+        <h2>e pronomi personali</h2>
+      </header>
+
+      <div class="boxes">
+        <div class="pronomi">Io</div>
+        <div class="pronomi">Tu</div>
+        <div class="pronomi">Lui</div>
+        <div class="pronomi">Lei</div>
+        <div class="pronomi">Noi</div>
+        <div class="pronomi">Voi</div>
+        <div class="pronomi">Loro</div>
+      </div>
+      <div class="boxes">
+        <div class="box">sono</div>
+        <div class="box">sei</div>
+        <div class="box">è</div>
+        <div class="box">è</div>
+        <div class="box">siamo</div>
+        <div class="box">siete</div>
+        <div class="box">sono</div>
+      </div>
+      <div class="boxes">
+        <div class="box2">Io sono inglese.</div>
+        <div class="box2">Tu sei molto bella.</div>
+        <div class="box2">Lui è grasso.</div>
+        <div class="box2">Lei è una giornalista.</div>
+        <div class="box2">Noi siamo americani.</div>
+        <div class="box2">Voi siete italiani.</div>
+        <div class="box2">Loro sono famosi.</div>
+      </div>
+      <div class="boxes">
+        <div class="box2">Sono inglese.</div>
+        <div class="box2">Sei molto bella.</div>
+        <div class="box2">È grasso.</div>
+        <div class="box2">È una giornalista</div>
+        <div class="box2">Siamo americani.</div>
+        <div class="box2">Siete italiani.</div>
+        <div class="box2">Sono famosi.</div>
+      </div>
+
+      <div class="return-button">
+        <a href="greetings.html">
+          <button class="r-button">Salutare in Italiano</button>
+        </a>
+      </div>
+      <div class="return-button">
+        <a href="L'Alfabeto.html">
+          <button class="r-button">L'Alfabeto in Italiano</button>
+        </a>
+      </div>
+      <div class="return-button">
+        <a href="famosi-expats.html">
+          <button class="r-button">I Famosi Expats</button>
+        </a>
+      </div>
+      <div class="return-button">
+        <a href="index.html"><button class="r-button">Return Home</button></a>
+      </div>
+    </div>
+  </body>
+</html>
